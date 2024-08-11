@@ -1,0 +1,14 @@
+#include <stdio.h>
+//at end
+int main() {
+  int i,arr[4],b[0];
+  printf("Enter the elements of the array: ");
+  for (int i = 0; i < 4; i++) {
+    scanf("%d", &arr[i]);
+  }
+
+for(int i=0;i<3;i++){
+    printf("%d",b[i]);
+}
+return 0;
+}
